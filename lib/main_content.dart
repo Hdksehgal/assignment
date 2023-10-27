@@ -4,7 +4,7 @@ class MainContent extends StatelessWidget {
   const MainContent({super.key});
   @override
   Widget build(BuildContext context) {
-    //final width = MediaQuery.of(context).size.width;
+    //final width = MediaQuery.of(context).size.width; //ALT
 
     return LayoutBuilder(
       builder: (BuildContext context, BoxConstraints constraints) => Column(
@@ -73,7 +73,6 @@ class MainContent extends StatelessWidget {
                       const Color.fromRGBO(213, 212, 212, 0.43137254901960786),
                   height: 50,
                   width: 100,
-                  //alignment: Alignment.topLeft,
                 ),
               ),
             ]),
